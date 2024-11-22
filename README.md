@@ -41,7 +41,7 @@ Follow these steps to view or edit the profile card locally:
 
 ### Clone the Repository  
 ```bash
-git clone https://github.com/your-username/profile-card.git
+git clone https://github.com/hammad13khurshid/Profile-Card.git
 ```
 Navigate to the Project Directory
 ```bash
