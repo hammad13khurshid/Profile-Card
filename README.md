@@ -3,6 +3,8 @@
 This repository contains the source code for a simple and elegant profile card created using HTML and CSS. The profile card is designed to showcase a user's profile image, name, job title, social media links, and call-to-action buttons.
 
 ---
+![Profile-Card UI Mockup](./profile-card%20Mockup.png)
+---
 
 ## Project Overview  
 
