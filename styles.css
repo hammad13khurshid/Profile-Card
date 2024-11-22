@@ -1,0 +1,146 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Google Fonts */
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.profile-card
+{
+    max-width: 370px;
+    width: 100%;
+    background-color: #f4f4f4;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image 
+{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    padding: 3px;
+    margin-bottom: 10px;
+
+
+}
+
+.image .profile-img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+
+}
+
+.profile-card .text-data
+{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.text-data .name
+{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.name 
+{
+    color: blue;
+}
+
+.text-data .job
+{
+    font-size: 18px;
+    font-weight: 4  00;
+}
+
+.profile-card .media-buttons
+{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media-buttons .link
+{
+    background-color: blue;
+    text-decoration: none;
+    height: 34px;
+    width: 34px;
+    margin: 0 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #f4f4f4;
+    font-size: 20px;
+
+} 
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    
+
+}
+
+.buttons .button
+{
+ padding: 8px 24px;
+ margin: 0 10px;
+ background-color: blue;
+ border-radius: 15px;
+ border: none;
+ color: #fff;
+ font-size: 14px;
+ cursor: pointer;
+ transition: all 0.5s ease;
+}
+
+.buttons .button:hover
+{
+    background-color: #0e4bf1;
+}
+.button:hover
+{
+    transform: scale(1.1);
+}
+.analytics
+{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    font-size: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
